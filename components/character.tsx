@@ -6,7 +6,9 @@ const Character = ({ id, name, file, click }) => {
       <img
         className="char"
         id={`char-${id}`}
-        src={file}
+        src={
+          process.env.BACKEND_URL ? `${process.env.BACKEND_URL}${file}` : file
+        }
         alt={name}
         onClick={click}
       />
