@@ -9,7 +9,7 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
@@ -25,7 +25,7 @@ var Character = function Character(_ref) {
       click = _ref.click;
   return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx("img", {
     id: "char-".concat(id),
-    src: process.env.BACKEND_URL ? "".concat(process.env.BACKEND_URL).concat(file) : file,
+    src: file,
     alt: name,
     onClick: click,
     className: "jsx-167018537" + " " + "char",
@@ -37,11 +37,10 @@ var Character = function Character(_ref) {
   }), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "167018537",
     __self: this
-  }, ".char.jsx-167018537{border-radius:5px;max-width:150px;height:auto;margin:5px;-webkit-box-shadow:1px 1px 10px -5px rgba(0,0,0,0.75);-moz-box-shadow:1px 1px 10px -5px rgba(0,0,0,0.75);box-shadow:1px 1px 10px -5px rgba(0,0,0,0.75);}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2NvZHkvY29kZS9naXRodWIvbG90ci1jbGlja2VyL2NvbXBvbmVudHMvY2hhcmFjdGVyLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFja0IsQUFHNkIsa0JBQ0YsZ0JBQ0osWUFDRCxXQUM4QyxzREFDSCxtREFDTCw4Q0FDbkQiLCJmaWxlIjoiL2hvbWUvY29keS9jb2RlL2dpdGh1Yi9sb3RyLWNsaWNrZXIvY29tcG9uZW50cy9jaGFyYWN0ZXIudHN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuXG5jb25zdCBDaGFyYWN0ZXIgPSAoeyBpZCwgbmFtZSwgZmlsZSwgY2xpY2sgfSkgPT4ge1xuICByZXR1cm4gKFxuICAgIDw+XG4gICAgICA8aW1nXG4gICAgICAgIGNsYXNzTmFtZT1cImNoYXJcIlxuICAgICAgICBpZD17YGNoYXItJHtpZH1gfVxuICAgICAgICBzcmM9e1xuICAgICAgICAgIHByb2Nlc3MuZW52LkJBQ0tFTkRfVVJMID8gYCR7cHJvY2Vzcy5lbnYuQkFDS0VORF9VUkx9JHtmaWxlfWAgOiBmaWxlXG4gICAgICAgIH1cbiAgICAgICAgYWx0PXtuYW1lfVxuICAgICAgICBvbkNsaWNrPXtjbGlja31cbiAgICAgIC8+XG4gICAgICA8c3R5bGUganN4PntgXG4gICAgICAgIC5jaGFyIHtcbiAgICAgICAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgICAgICAgbWF4LXdpZHRoOiAxNTBweDtcbiAgICAgICAgICBoZWlnaHQ6IGF1dG87XG4gICAgICAgICAgbWFyZ2luOiA1cHg7XG4gICAgICAgICAgLXdlYmtpdC1ib3gtc2hhZG93OiAxcHggMXB4IDEwcHggLTVweCByZ2JhKDAsIDAsIDAsIDAuNzUpO1xuICAgICAgICAgIC1tb3otYm94LXNoYWRvdzogMXB4IDFweCAxMHB4IC01cHggcmdiYSgwLCAwLCAwLCAwLjc1KTtcbiAgICAgICAgICBib3gtc2hhZG93OiAxcHggMXB4IDEwcHggLTVweCByZ2JhKDAsIDAsIDAsIDAuNzUpO1xuICAgICAgICB9XG4gICAgICBgfTwvc3R5bGU+XG4gICAgPC8+XG4gICk7XG59O1xuXG5leHBvcnQgZGVmYXVsdCBDaGFyYWN0ZXI7XG4iXX0= */\n/*@ sourceURL=/home/cody/code/github/lotr-clicker/components/character.tsx */"));
+  }, ".char.jsx-167018537{border-radius:5px;max-width:150px;height:auto;margin:5px;-webkit-box-shadow:1px 1px 10px -5px rgba(0,0,0,0.75);-moz-box-shadow:1px 1px 10px -5px rgba(0,0,0,0.75);box-shadow:1px 1px 10px -5px rgba(0,0,0,0.75);}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2NvZHkvY29kZS9naXRodWIvbG90ci1jbGlja2VyL2NvbXBvbmVudHMvY2hhcmFjdGVyLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFZa0IsQUFHNkIsa0JBQ0YsZ0JBQ0osWUFDRCxXQUM4QyxzREFDSCxtREFDTCw4Q0FDbkQiLCJmaWxlIjoiL2hvbWUvY29keS9jb2RlL2dpdGh1Yi9sb3RyLWNsaWNrZXIvY29tcG9uZW50cy9jaGFyYWN0ZXIudHN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuXG5jb25zdCBDaGFyYWN0ZXIgPSAoeyBpZCwgbmFtZSwgZmlsZSwgY2xpY2sgfSkgPT4ge1xuICByZXR1cm4gKFxuICAgIDw+XG4gICAgICA8aW1nXG4gICAgICAgIGNsYXNzTmFtZT1cImNoYXJcIlxuICAgICAgICBpZD17YGNoYXItJHtpZH1gfVxuICAgICAgICBzcmM9e2ZpbGV9XG4gICAgICAgIGFsdD17bmFtZX1cbiAgICAgICAgb25DbGljaz17Y2xpY2t9XG4gICAgICAvPlxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAuY2hhciB7XG4gICAgICAgICAgYm9yZGVyLXJhZGl1czogNXB4O1xuICAgICAgICAgIG1heC13aWR0aDogMTUwcHg7XG4gICAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgICAgIG1hcmdpbjogNXB4O1xuICAgICAgICAgIC13ZWJraXQtYm94LXNoYWRvdzogMXB4IDFweCAxMHB4IC01cHggcmdiYSgwLCAwLCAwLCAwLjc1KTtcbiAgICAgICAgICAtbW96LWJveC1zaGFkb3c6IDFweCAxcHggMTBweCAtNXB4IHJnYmEoMCwgMCwgMCwgMC43NSk7XG4gICAgICAgICAgYm94LXNoYWRvdzogMXB4IDFweCAxMHB4IC01cHggcmdiYSgwLCAwLCAwLCAwLjc1KTtcbiAgICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvPlxuICApO1xufTtcblxuZXhwb3J0IGRlZmF1bHQgQ2hhcmFjdGVyO1xuIl19 */\n/*@ sourceURL=/home/cody/code/github/lotr-clicker/components/character.tsx */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Character);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/process/browser.js */ "./node_modules/process/browser.js")))
 
 /***/ }),
 
@@ -4955,7 +4954,7 @@ var Home = function Home() {
   }, "LotR Clicker"), __jsx("link", {
     rel: "apple-touch-icon",
     sizes: "180x180",
-    href: "/apple-touch-icon.png",
+    href:  true ? "apple-touch-icon.png" : undefined,
     className: "jsx-3548604042",
     __source: {
       fileName: _jsxFileName,
@@ -4966,57 +4965,57 @@ var Home = function Home() {
     rel: "icon",
     type: "image/png",
     sizes: "32x32",
-    href: "/favicon-32x32.png",
+    href:  true ? "favicon-32x32.png" : undefined,
     className: "jsx-3548604042",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 57
     },
     __self: this
   }), __jsx("link", {
     rel: "icon",
     type: "image/png",
     sizes: "16x16",
-    href: "/favicon-16x16.png",
+    href:  true ? "favicon-16x16.png" : undefined,
     className: "jsx-3548604042",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 67
     },
     __self: this
   }), __jsx("link", {
     rel: "manifest",
-    href: "/site.webmanifest",
+    href:  true ? "site.webmanifest" : undefined,
     className: "jsx-3548604042",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 77
     },
     __self: this
   })), __jsx(_lib_ScoreContext__WEBPACK_IMPORTED_MODULE_6__["ScoreContext"].Provider, {
     value: state,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67
+      lineNumber: 86
     },
     __self: this
   }, __jsx(_components_header__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 87
     },
     __self: this
   }), __jsx(_components_gameContainer__WEBPACK_IMPORTED_MODULE_5__["default"], {
     dispatch: dispatch,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 89
     },
     __self: this
   })), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default.a, {
     id: "3548604042",
     __self: this
-  }, "body{margin:0 auto;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2NvZHkvY29kZS9naXRodWIvbG90ci1jbGlja2VyL3BhZ2VzL2luZGV4LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUF1RXlCLEFBR3lCLGNBQ2hCIiwiZmlsZSI6Ii9ob21lL2NvZHkvY29kZS9naXRodWIvbG90ci1jbGlja2VyL3BhZ2VzL2luZGV4LnRzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCwgeyB1c2VSZWR1Y2VyIH0gZnJvbSBcInJlYWN0XCI7XG5pbXBvcnQgSGVhZCBmcm9tIFwibmV4dC9oZWFkXCI7XG5pbXBvcnQgSGVhZGVyIGZyb20gXCIuLi9jb21wb25lbnRzL2hlYWRlclwiO1xuaW1wb3J0IEdhbWVDb250YWluZXIgZnJvbSBcIi4uL2NvbXBvbmVudHMvZ2FtZUNvbnRhaW5lclwiO1xuaW1wb3J0IHsgU2NvcmVDb250ZXh0IH0gZnJvbSBcIi4uL2xpYi9TY29yZUNvbnRleHRcIjtcblxuZnVuY3Rpb24gcmVkdWNlcihzdGF0ZSwgYWN0aW9uKSB7XG4gIHN3aXRjaCAoYWN0aW9uKSB7XG4gICAgY2FzZSBcInNjb3JlKytcIjpcbiAgICAgIHJldHVybiB7XG4gICAgICAgIHNjb3JlOiBzdGF0ZS5zY29yZSArIDEsXG4gICAgICAgIGhpZ2hTY29yZTogc3RhdGUuaGlnaFNjb3JlLFxuICAgICAgICB3aW46IHN0YXRlLndpbixcbiAgICAgICAgbG9zczogc3RhdGUubG9zc1xuICAgICAgfTtcbiAgICBjYXNlIFwic2V0SGlnaFwiOlxuICAgICAgcmV0dXJuIHtcbiAgICAgICAgc2NvcmU6IHN0YXRlLnNjb3JlLFxuICAgICAgICBoaWdoU2NvcmU6IHN0YXRlLnNjb3JlLFxuICAgICAgICB3aW46IHN0YXRlLndpbixcbiAgICAgICAgbG9zczogc3RhdGUubG9zc1xuICAgICAgfTtcbiAgICBjYXNlIFwic2V0V2luXCI6XG4gICAgICByZXR1cm4geyBzY29yZTogMCwgaGlnaFNjb3JlOiBzdGF0ZS5zY29yZSwgd2luOiB0cnVlLCBsb3NzOiBmYWxzZSB9O1xuICAgIGNhc2UgXCJyZXNldFwiOlxuICAgICAgcmV0dXJuIHsgaGlnaFNjb3JlOiBzdGF0ZS5oaWdoU2NvcmUsIHNjb3JlOiAwLCB3aW46IGZhbHNlLCBsb3NzOiBmYWxzZSB9O1xuICAgIGNhc2UgXCJzZXRMb3NzXCI6XG4gICAgICByZXR1cm4geyBzY29yZTogMCwgaGlnaFNjb3JlOiBzdGF0ZS5oaWdoU2NvcmUsIHdpbjogZmFsc2UsIGxvc3M6IHRydWUgfTtcbiAgICBkZWZhdWx0OlxuICAgICAgdGhyb3cgbmV3IEVycm9yKFxuICAgICAgICBgQWN0aW9uICR7SlNPTi5zdHJpbmdpZnkoYWN0aW9uKX0gbm90IGF2YWlsYWJsZSBpbiByZWR1Y2VyYFxuICAgICAgKTtcbiAgfVxufVxuXG5jb25zdCBIb21lID0gKCkgPT4ge1xuICBjb25zdCBbc3RhdGUsIGRpc3BhdGNoXSA9IHVzZVJlZHVjZXIocmVkdWNlciwge1xuICAgIGhpZ2hTY29yZTogMCxcbiAgICBzY29yZTogMCxcbiAgICB3aW46IGZhbHNlLFxuICAgIGxvc3M6IGZhbHNlXG4gIH0pO1xuXG4gIHJldHVybiAoXG4gICAgPGRpdj5cbiAgICAgIDxIZWFkPlxuICAgICAgICA8dGl0bGU+TG90UiBDbGlja2VyPC90aXRsZT5cbiAgICAgICAgPGxpbmtcbiAgICAgICAgICByZWw9XCJhcHBsZS10b3VjaC1pY29uXCJcbiAgICAgICAgICBzaXplcz1cIjE4MHgxODBcIlxuICAgICAgICAgIGhyZWY9XCIvYXBwbGUtdG91Y2gtaWNvbi5wbmdcIlxuICAgICAgICAvPlxuICAgICAgICA8bGlua1xuICAgICAgICAgIHJlbD1cImljb25cIlxuICAgICAgICAgIHR5cGU9XCJpbWFnZS9wbmdcIlxuICAgICAgICAgIHNpemVzPVwiMzJ4MzJcIlxuICAgICAgICAgIGhyZWY9XCIvZmF2aWNvbi0zMngzMi5wbmdcIlxuICAgICAgICAvPlxuICAgICAgICA8bGlua1xuICAgICAgICAgIHJlbD1cImljb25cIlxuICAgICAgICAgIHR5cGU9XCJpbWFnZS9wbmdcIlxuICAgICAgICAgIHNpemVzPVwiMTZ4MTZcIlxuICAgICAgICAgIGhyZWY9XCIvZmF2aWNvbi0xNngxNi5wbmdcIlxuICAgICAgICAvPlxuICAgICAgICA8bGluayByZWw9XCJtYW5pZmVzdFwiIGhyZWY9XCIvc2l0ZS53ZWJtYW5pZmVzdFwiIC8+XG4gICAgICA8L0hlYWQ+XG4gICAgICA8U2NvcmVDb250ZXh0LlByb3ZpZGVyIHZhbHVlPXtzdGF0ZX0+XG4gICAgICAgIDxIZWFkZXIgLz5cblxuICAgICAgICA8R2FtZUNvbnRhaW5lciBkaXNwYXRjaD17ZGlzcGF0Y2h9IC8+XG4gICAgICA8L1Njb3JlQ29udGV4dC5Qcm92aWRlcj5cbiAgICAgIDxzdHlsZSBqc3ggZ2xvYmFsPntgXG4gICAgICAgIGJvZHkge1xuICAgICAgICAgIG1hcmdpbjogMCBhdXRvO1xuICAgICAgICB9XG4gICAgICBgfTwvc3R5bGU+XG4gICAgPC9kaXY+XG4gICk7XG59O1xuXG5leHBvcnQgZGVmYXVsdCBIb21lO1xuIl19 */\n/*@ sourceURL=/home/cody/code/github/lotr-clicker/pages/index.tsx */"));
+  }, "body{margin:0 auto;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2NvZHkvY29kZS9naXRodWIvbG90ci1jbGlja2VyL3BhZ2VzL2luZGV4LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUEwRnlCLEFBR3lCLGNBQ2hCIiwiZmlsZSI6Ii9ob21lL2NvZHkvY29kZS9naXRodWIvbG90ci1jbGlja2VyL3BhZ2VzL2luZGV4LnRzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCwgeyB1c2VSZWR1Y2VyIH0gZnJvbSBcInJlYWN0XCI7XG5pbXBvcnQgSGVhZCBmcm9tIFwibmV4dC9oZWFkXCI7XG5pbXBvcnQgSGVhZGVyIGZyb20gXCIuLi9jb21wb25lbnRzL2hlYWRlclwiO1xuaW1wb3J0IEdhbWVDb250YWluZXIgZnJvbSBcIi4uL2NvbXBvbmVudHMvZ2FtZUNvbnRhaW5lclwiO1xuaW1wb3J0IHsgU2NvcmVDb250ZXh0IH0gZnJvbSBcIi4uL2xpYi9TY29yZUNvbnRleHRcIjtcblxuZnVuY3Rpb24gcmVkdWNlcihzdGF0ZSwgYWN0aW9uKSB7XG4gIHN3aXRjaCAoYWN0aW9uKSB7XG4gICAgY2FzZSBcInNjb3JlKytcIjpcbiAgICAgIHJldHVybiB7XG4gICAgICAgIHNjb3JlOiBzdGF0ZS5zY29yZSArIDEsXG4gICAgICAgIGhpZ2hTY29yZTogc3RhdGUuaGlnaFNjb3JlLFxuICAgICAgICB3aW46IHN0YXRlLndpbixcbiAgICAgICAgbG9zczogc3RhdGUubG9zc1xuICAgICAgfTtcbiAgICBjYXNlIFwic2V0SGlnaFwiOlxuICAgICAgcmV0dXJuIHtcbiAgICAgICAgc2NvcmU6IHN0YXRlLnNjb3JlLFxuICAgICAgICBoaWdoU2NvcmU6IHN0YXRlLnNjb3JlLFxuICAgICAgICB3aW46IHN0YXRlLndpbixcbiAgICAgICAgbG9zczogc3RhdGUubG9zc1xuICAgICAgfTtcbiAgICBjYXNlIFwic2V0V2luXCI6XG4gICAgICByZXR1cm4geyBzY29yZTogMCwgaGlnaFNjb3JlOiBzdGF0ZS5zY29yZSwgd2luOiB0cnVlLCBsb3NzOiBmYWxzZSB9O1xuICAgIGNhc2UgXCJyZXNldFwiOlxuICAgICAgcmV0dXJuIHsgaGlnaFNjb3JlOiBzdGF0ZS5oaWdoU2NvcmUsIHNjb3JlOiAwLCB3aW46IGZhbHNlLCBsb3NzOiBmYWxzZSB9O1xuICAgIGNhc2UgXCJzZXRMb3NzXCI6XG4gICAgICByZXR1cm4geyBzY29yZTogMCwgaGlnaFNjb3JlOiBzdGF0ZS5oaWdoU2NvcmUsIHdpbjogZmFsc2UsIGxvc3M6IHRydWUgfTtcbiAgICBkZWZhdWx0OlxuICAgICAgdGhyb3cgbmV3IEVycm9yKFxuICAgICAgICBgQWN0aW9uICR7SlNPTi5zdHJpbmdpZnkoYWN0aW9uKX0gbm90IGF2YWlsYWJsZSBpbiByZWR1Y2VyYFxuICAgICAgKTtcbiAgfVxufVxuXG5jb25zdCBIb21lID0gKCkgPT4ge1xuICBjb25zdCBbc3RhdGUsIGRpc3BhdGNoXSA9IHVzZVJlZHVjZXIocmVkdWNlciwge1xuICAgIGhpZ2hTY29yZTogMCxcbiAgICBzY29yZTogMCxcbiAgICB3aW46IGZhbHNlLFxuICAgIGxvc3M6IGZhbHNlXG4gIH0pO1xuXG4gIHJldHVybiAoXG4gICAgPGRpdj5cbiAgICAgIDxIZWFkPlxuICAgICAgICA8dGl0bGU+TG90UiBDbGlja2VyPC90aXRsZT5cbiAgICAgICAgPGxpbmtcbiAgICAgICAgICByZWw9XCJhcHBsZS10b3VjaC1pY29uXCJcbiAgICAgICAgICBzaXplcz1cIjE4MHgxODBcIlxuICAgICAgICAgIGhyZWY9e1xuICAgICAgICAgICAgcHJvY2Vzcy5lbnYuTk9ERV9FTlYgIT09IFwidGVzdFwiXG4gICAgICAgICAgICAgID8gXCJhcHBsZS10b3VjaC1pY29uLnBuZ1wiXG4gICAgICAgICAgICAgIDogXCIvYXBwbGUtdG91Y2gtaWNvbi5wbmdcIlxuICAgICAgICAgIH1cbiAgICAgICAgLz5cbiAgICAgICAgPGxpbmtcbiAgICAgICAgICByZWw9XCJpY29uXCJcbiAgICAgICAgICB0eXBlPVwiaW1hZ2UvcG5nXCJcbiAgICAgICAgICBzaXplcz1cIjMyeDMyXCJcbiAgICAgICAgICBocmVmPXtcbiAgICAgICAgICAgIHByb2Nlc3MuZW52Lk5PREVfRU5WICE9PSBcInRlc3RcIlxuICAgICAgICAgICAgICA/IFwiZmF2aWNvbi0zMngzMi5wbmdcIlxuICAgICAgICAgICAgICA6IFwiL2Zhdmljb24tMzJ4MzIucG5nXCJcbiAgICAgICAgICB9XG4gICAgICAgIC8+XG4gICAgICAgIDxsaW5rXG4gICAgICAgICAgcmVsPVwiaWNvblwiXG4gICAgICAgICAgdHlwZT1cImltYWdlL3BuZ1wiXG4gICAgICAgICAgc2l6ZXM9XCIxNngxNlwiXG4gICAgICAgICAgaHJlZj17XG4gICAgICAgICAgICBwcm9jZXNzLmVudi5OT0RFX0VOViAhPT0gXCJ0ZXN0XCJcbiAgICAgICAgICAgICAgPyBcImZhdmljb24tMTZ4MTYucG5nXCJcbiAgICAgICAgICAgICAgOiBcIi9mYXZpY29uLTE2eDE2LnBuZ1wiXG4gICAgICAgICAgfVxuICAgICAgICAvPlxuICAgICAgICA8bGlua1xuICAgICAgICAgIHJlbD1cIm1hbmlmZXN0XCJcbiAgICAgICAgICBocmVmPXtcbiAgICAgICAgICAgIHByb2Nlc3MuZW52Lk5PREVfRU5WICE9PSBcInRlc3RcIlxuICAgICAgICAgICAgICA/IFwic2l0ZS53ZWJtYW5pZmVzdFwiXG4gICAgICAgICAgICAgIDogXCIvc2l0ZS53ZWJtYW5pZmVzdFwiXG4gICAgICAgICAgfVxuICAgICAgICAvPlxuICAgICAgPC9IZWFkPlxuICAgICAgPFNjb3JlQ29udGV4dC5Qcm92aWRlciB2YWx1ZT17c3RhdGV9PlxuICAgICAgICA8SGVhZGVyIC8+XG5cbiAgICAgICAgPEdhbWVDb250YWluZXIgZGlzcGF0Y2g9e2Rpc3BhdGNofSAvPlxuICAgICAgPC9TY29yZUNvbnRleHQuUHJvdmlkZXI+XG4gICAgICA8c3R5bGUganN4IGdsb2JhbD57YFxuICAgICAgICBib2R5IHtcbiAgICAgICAgICBtYXJnaW46IDAgYXV0bztcbiAgICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvZGl2PlxuICApO1xufTtcblxuZXhwb3J0IGRlZmF1bHQgSG9tZTtcbiJdfQ== */\n/*@ sourceURL=/home/cody/code/github/lotr-clicker/pages/index.tsx */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
@@ -5030,7 +5029,7 @@ var Home = function Home() {
 /*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("[{\"id\":0,\"name\":\"aragorn\",\"file\":\"/characters/aragorn.png\"},{\"id\":1,\"name\":\"bilbo\",\"file\":\"/characters/bilbo.png\"},{\"id\":2,\"name\":\"boromir\",\"file\":\"/characters/boromir.png\"},{\"id\":3,\"name\":\"elrond\",\"file\":\"/characters/elrond.png\"},{\"id\":4,\"name\":\"eomer\",\"file\":\"/characters/eomer.png\"},{\"id\":5,\"name\":\"eowyn\",\"file\":\"/characters/eowyn.png\"},{\"id\":6,\"name\":\"faramir\",\"file\":\"/characters/faramir.png\"},{\"id\":7,\"name\":\"frodo\",\"file\":\"/characters/frodo.png\"},{\"id\":8,\"name\":\"galadriel\",\"file\":\"/characters/galadriel.png\"},{\"id\":9,\"name\":\"gandalf\",\"file\":\"/characters/gandalf.png\"},{\"id\":10,\"name\":\"gimli\",\"file\":\"/characters/gimli.png\"},{\"id\":11,\"name\":\"gollum\",\"file\":\"/characters/gollum.png\"},{\"id\":12,\"name\":\"legolas\",\"file\":\"/characters/legolas.png\"},{\"id\":13,\"name\":\"merry\",\"file\":\"/characters/merry.png\"},{\"id\":14,\"name\":\"pippin\",\"file\":\"/characters/pippin.png\"},{\"id\":15,\"name\":\"sam\",\"file\":\"/characters/sam.png\"},{\"id\":16,\"name\":\"sarumon\",\"file\":\"/characters/sarumon.png\"},{\"id\":17,\"name\":\"theoden\",\"file\":\"/characters/theoden.png\"},{\"id\":18,\"name\":\"thorin\",\"file\":\"/characters/thorin.png\"},{\"id\":19,\"name\":\"treebeard\",\"file\":\"/characters/treebeard.png\"}]");
+module.exports = JSON.parse("[{\"id\":0,\"name\":\"aragorn\",\"file\":\"characters/aragorn.png\"},{\"id\":1,\"name\":\"bilbo\",\"file\":\"characters/bilbo.png\"},{\"id\":2,\"name\":\"boromir\",\"file\":\"characters/boromir.png\"},{\"id\":3,\"name\":\"elrond\",\"file\":\"characters/elrond.png\"},{\"id\":4,\"name\":\"eomer\",\"file\":\"characters/eomer.png\"},{\"id\":5,\"name\":\"eowyn\",\"file\":\"characters/eowyn.png\"},{\"id\":6,\"name\":\"faramir\",\"file\":\"characters/faramir.png\"},{\"id\":7,\"name\":\"frodo\",\"file\":\"characters/frodo.png\"},{\"id\":8,\"name\":\"galadriel\",\"file\":\"characters/galadriel.png\"},{\"id\":9,\"name\":\"gandalf\",\"file\":\"characters/gandalf.png\"},{\"id\":10,\"name\":\"gimli\",\"file\":\"characters/gimli.png\"},{\"id\":11,\"name\":\"gollum\",\"file\":\"characters/gollum.png\"},{\"id\":12,\"name\":\"legolas\",\"file\":\"characters/legolas.png\"},{\"id\":13,\"name\":\"merry\",\"file\":\"characters/merry.png\"},{\"id\":14,\"name\":\"pippin\",\"file\":\"characters/pippin.png\"},{\"id\":15,\"name\":\"sam\",\"file\":\"characters/sam.png\"},{\"id\":16,\"name\":\"sarumon\",\"file\":\"characters/sarumon.png\"},{\"id\":17,\"name\":\"theoden\",\"file\":\"characters/theoden.png\"},{\"id\":18,\"name\":\"thorin\",\"file\":\"characters/thorin.png\"},{\"id\":19,\"name\":\"treebeard\",\"file\":\"characters/treebeard.png\"}]");
 
 /***/ }),
 
