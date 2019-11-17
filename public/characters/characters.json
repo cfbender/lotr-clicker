@@ -1,0 +1,22 @@
+[
+  { "id": 0, "name": "aragorn", "file": "/characters/aragorn.png" },
+  { "id": 1, "name": "bilbo", "file": "/characters/bilbo.png" },
+  { "id": 2, "name": "boromir", "file": "/characters/boromir.png" },
+  { "id": 3, "name": "elrond", "file": "/characters/elrond.png" },
+  { "id": 4, "name": "eomer", "file": "/characters/eomer.png" },
+  { "id": 5, "name": "eowyn", "file": "/characters/eowyn.png" },
+  { "id": 6, "name": "faramir", "file": "/characters/faramir.png" },
+  { "id": 7, "name": "frodo", "file": "/characters/frodo.png" },
+  { "id": 8, "name": "galadriel", "file": "/characters/galadriel.png" },
+  { "id": 9, "name": "gandalf", "file": "/characters/gandalf.png" },
+  { "id": 10, "name": "gimli", "file": "/characters/gimli.png" },
+  { "id": 11, "name": "gollum", "file": "/characters/gollum.png" },
+  { "id": 12, "name": "legolas", "file": "/characters/legolas.png" },
+  { "id": 13, "name": "merry", "file": "/characters/merry.png" },
+  { "id": 14, "name": "pippin", "file": "/characters/pippin.png" },
+  { "id": 15, "name": "sam", "file": "/characters/sam.png" },
+  { "id": 16, "name": "sarumon", "file": "/characters/sarumon.png" },
+  { "id": 17, "name": "theoden", "file": "/characters/theoden.png" },
+  { "id": 18, "name": "thorin", "file": "/characters/thorin.png" },
+  { "id": 19, "name": "treebeard", "file": "/characters/treebeard.png" }
+]
